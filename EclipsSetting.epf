@@ -1,4 +1,4 @@
-#Tue Oct 18 19:31:01 JST 2016
+#Tue Oct 18 19:38:35 JST 2016
 \!/=
 /configuration/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
 /configuration/org.eclipse.epp.logging.aeri.ide/anonymizeMessages=false
@@ -832,6 +832,7 @@
 /instance/org.eclipse.cdt.core/build.all.configs.enabled=false
 /instance/org.eclipse.cdt.core/build.proj.ref.configs.enabled=false
 /instance/org.eclipse.cdt.core/doctool/workspace.default=org.eclipse.cdt.ui.doxygen
+/instance/org.eclipse.cdt.core/errorparser.default.ids=org.eclipse.cdt.autotools.core.ErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.VCErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.MakeErrorParser
 /instance/org.eclipse.cdt.core/includes.beginExportsPattern=IWYU\\s+(pragma\:?\\s+)?begin_exports?
 /instance/org.eclipse.cdt.core/includes.endExportsPattern=IWYU\\s+(pragma\:?\\s+)?end_exports?
 /instance/org.eclipse.cdt.core/includes.exportPattern=IWYU\\s+(pragma\:?\\s+)?export
@@ -851,12 +852,14 @@
 /instance/org.eclipse.cdt.core/indexer/skipTypeReferences=false
 /instance/org.eclipse.cdt.core/indexer/updatePolicy=0
 /instance/org.eclipse.cdt.core/indexer/useHeuristicIncludeResolution=true
+/instance/org.eclipse.cdt.core/language.settings.providers.workspace.prefs.toggle=true
 /instance/org.eclipse.cdt.core/macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<macros/>\n
 /instance/org.eclipse.cdt.core/org.eclipse.cdt.core.maxIndexDBCacheSizeMB=512
 /instance/org.eclipse.cdt.core/org.eclipse.cdt.core.showSourceFilesInBinaries=true
 /instance/org.eclipse.cdt.core/org.eclipse.cdt.core.showSourceRootsAtTopLevelOfProject=true
 /instance/org.eclipse.cdt.core/org.eclipse.cdt.core.taskPriorities=normal,normal,normal
 /instance/org.eclipse.cdt.core/org.eclipse.cdt.core.taskTags=TODO,FIXME,XXX
+/instance/org.eclipse.cdt.debug.core/BreakpointActionManager.actionData=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<breakpointActionData/>\n
 /instance/org.eclipse.cdt.debug.core/org.eclipse.cdt.debug.core.cDebug.default_source_containers=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<sourceLookupDirector>\n<sourceContainers duplicates\="false">\n<container memento\="AbsolutePath" typeId\="org.eclipse.cdt.debug.core.containerType.absolutePath"/>\n<container memento\="programRelativePath" typeId\="org.eclipse.cdt.debug.core.containerType.programRelativePath"/>\n<container memento\="&lt;?xml version\=&quot;1.0&quot; encoding\=&quot;UTF-8&quot; standalone\=&quot;no&quot;?&gt;&\#10;&lt;project referencedProjects\=&quot;true&quot;/&gt;&\#10;" typeId\="org.eclipse.cdt.debug.core.containerType.project"/>\n</sourceContainers>\n</sourceLookupDirector>\n
 /instance/org.eclipse.cdt.dsf.ui/useAnnotationsPrefPage=true
 /instance/org.eclipse.cdt.make.core/org.eclipse.cdt.make.core.scanner.discovery.console.enabled=false
@@ -909,7 +912,7 @@
 /instance/org.eclipse.cdt.ui/editor_folding_preprocessor_enabled=true
 /instance/org.eclipse.cdt.ui/hoverModifierMasks=org.eclipse.cdt.ui.BestMatchHover;0;org.eclipse.cdt.debug.internal.ui.editors.DebugTextHover;0;org.eclipse.cdt.ui.ProblemHover;0;org.eclipse.cdt.ui.CSourceHover;131072;org.eclipse.cdt.ui.CDocHover;0;org.eclipse.cdt.ui.CMacroExpansionHover;0;org.eclipse.cdt.ui.AnnotationHover;0;
 /instance/org.eclipse.cdt.ui/hoverModifiers=org.eclipse.cdt.ui.BestMatchHover;0;org.eclipse.cdt.debug.internal.ui.editors.DebugTextHover;\!0;org.eclipse.cdt.ui.ProblemHover;\!0;org.eclipse.cdt.ui.CSourceHover;\u30B7\u30D5\u30C8;org.eclipse.cdt.ui.CDocHover;\!0;org.eclipse.cdt.ui.CMacroExpansionHover;\!0;org.eclipse.cdt.ui.AnnotationHover;\!0;
-/instance/org.eclipse.cdt.ui/inactiveCodeColor=97,97,97
+/instance/org.eclipse.cdt.ui/inactiveCodeColor=46,52,54
 /instance/org.eclipse.cdt.ui/includeStyle.external=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="false" blank_line_before\="false" keep_together\="false" relative_path\="false"/>
 /instance/org.eclipse.cdt.ui/includeStyle.inOtherProject=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="false" blank_line_before\="false" keep_together\="false" relative_path\="false"/>
 /instance/org.eclipse.cdt.ui/includeStyle.inSameProject=<?xml version\="1.0" encoding\="UTF-8"?>\n<style angle_brackets\="false" blank_line_before\="false" keep_together\="false" relative_path\="false"/>
@@ -960,6 +963,8 @@
 /instance/org.eclipse.cdt.ui/pp_directive=165,123,97
 /instance/org.eclipse.cdt.ui/pp_directive_bold=false
 /instance/org.eclipse.cdt.ui/pp_header=199,141,155
+/instance/org.eclipse.cdt.ui/properties.multi.displ.mode=1
+/instance/org.eclipse.cdt.ui/properties.multi.write.mode=4
 /instance/org.eclipse.cdt.ui/semanticHighlighting.class.color=103,140,177
 /instance/org.eclipse.cdt.ui/semanticHighlighting.class.enabled=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.enum.color=224,226,228
@@ -1252,6 +1257,10 @@
 /instance/org.eclipse.jst.jsp.ui/tagAttributeName=\#A57B61 | null | null | null | null | null
 /instance/org.eclipse.jst.jsp.ui/tagAttributeValue=\#C78D9B | null | null | null | null | null
 /instance/org.eclipse.jst.jsp.ui/tagBorder=\#678CB1 | null | null | null | null | null
+/instance/org.eclipse.linuxtools.changelog.core/IChangeLogConstants.AUTHOR_NAME=Utsunomiya
+/instance/org.eclipse.m2e.core/eclipse.m2.WorkspacelifecycleMappingsLocation=/home/yasuo/workspace/2016_Platform/.metadata/.plugins/org.eclipse.m2e.core/lifecycle-mapping-metadata.xml
+/instance/org.eclipse.m2e.core/eclipse.m2.defaultRuntime=EMBEDDED
+/instance/org.eclipse.m2e.core/eclipse.m2.runtimes=
 /instance/org.eclipse.mylyn.context.core/mylyn.attention.migrated=true
 /instance/org.eclipse.mylyn.monitor.ui/org.eclipse.mylyn.monitor.activity.tracking.enabled.checked=true
 /instance/org.eclipse.mylyn.resources.ui/org.eclipse.mylyn.ide.resources.ignore.pattern.version=1.0
@@ -1348,7 +1357,7 @@
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Foreground.SystemDefault=false
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionBackground=149,190,216
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
-/instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionForeground=224,226,228
+/instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionForeground=0,0,0
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
 /instance/org.eclipse.ui.editors/PHPReadOccurrenceIndicationColor=97,97,97
 /instance/org.eclipse.ui.editors/PHPWriteOccurrenceIndicationColor=97,97,97
@@ -1373,7 +1382,7 @@
 /instance/org.eclipse.ui.editors/occurrenceIndicationColor=97,97,97
 /instance/org.eclipse.ui.editors/org.eclipse.cdt.ui.occurrenceIndicationColor=97,97,97
 /instance/org.eclipse.ui.editors/org.eclipse.cdt.ui.writeOccurrenceIndicationColor=143,89,2
-/instance/org.eclipse.ui.editors/overriddenByCSS=,AbstractTextEditor.Color.Background.SystemDefault,AbstractTextEditor.Color.SelectionForeground.SystemDefault,AbstractTextEditor.Color.SelectionBackground.SystemDefault,AbstractTextEditor.Color.Foreground.SystemDefault,AbstractTextEditor.Color.SelectionBackground,AbstractTextEditor.Color.SelectionForeground,AbstractTextEditor.Color.Foreground,AbstractTextEditor.Color.FindScope,asOccurencesIndicationColor,breakpointIndicationColor,currentIPColor,currentLineColor,deletionIndicationColor,filteredSearchResultIndicationColor,hyperlinkColor,hyperlinkColor.SystemDefault,infoIndicationColor,lineNumberColor,linked.slave.color,matchingTagIndicationColor,occurrenceIndicationColor,overrideIndicatorColor,printMarginColor,searchResultHighlighting,searchResultIndication,searchResultTextStyle,secondaryIPColor,spellingIndicationColor,writeOccurrenceIndicationColor,
+/instance/org.eclipse.ui.editors/overriddenByCSS=,AbstractTextEditor.Color.Background.SystemDefault,AbstractTextEditor.Color.SelectionForeground.SystemDefault,AbstractTextEditor.Color.SelectionBackground.SystemDefault,AbstractTextEditor.Color.Foreground.SystemDefault,AbstractTextEditor.Color.SelectionBackground,AbstractTextEditor.Color.Foreground,AbstractTextEditor.Color.FindScope,asOccurencesIndicationColor,breakpointIndicationColor,currentIPColor,currentLineColor,deletionIndicationColor,filteredSearchResultIndicationColor,hyperlinkColor,hyperlinkColor.SystemDefault,infoIndicationColor,lineNumberColor,linked.slave.color,matchingTagIndicationColor,occurrenceIndicationColor,overrideIndicatorColor,printMarginColor,searchResultHighlighting,searchResultIndication,searchResultTextStyle,secondaryIPColor,spellingIndicationColor,writeOccurrenceIndicationColor,
 /instance/org.eclipse.ui.editors/overrideIndicatorColor=78,120,117
 /instance/org.eclipse.ui.editors/overviewRuler_migration=migrated_3.1
 /instance/org.eclipse.ui.editors/printMarginColor=129,150,154
@@ -1798,6 +1807,8 @@
 @org.eclipse.help.base=4.1.0.v20160907-1200
 @org.eclipse.help.ui=4.0.200.v20160510-0758
 @org.eclipse.jsch.core=1.3.0.v20160422-1917
+@org.eclipse.linuxtools.changelog.core=2.8.0.201609141916
+@org.eclipse.m2e.core=1.7.0.20160603-1933
 @org.eclipse.mylyn.context.core=3.20.0.v20160421-1902
 @org.eclipse.mylyn.monitor.ui=3.20.0.v20160421-1819
 @org.eclipse.mylyn.resources.ui=3.20.0.v20160421-1902
