@@ -1,4 +1,4 @@
-#Tue Oct 18 18:45:56 JST 2016
+#Tue Oct 18 19:14:42 JST 2016
 \!/=
 /configuration/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
 /configuration/org.eclipse.epp.logging.aeri.ide/anonymizeMessages=false
@@ -891,12 +891,14 @@
 /instance/org.eclipse.cdt.ui/c_comment_task_tag=165,123,97
 /instance/org.eclipse.cdt.ui/c_default=224,226,228
 /instance/org.eclipse.cdt.ui/c_keyword=165,123,97
+/instance/org.eclipse.cdt.ui/c_keyword_bold=false
 /instance/org.eclipse.cdt.ui/c_multi_line_comment=125,140,147
 /instance/org.eclipse.cdt.ui/c_numbers=199,141,155
 /instance/org.eclipse.cdt.ui/c_operators=232,226,183
 /instance/org.eclipse.cdt.ui/c_single_line_comment=125,140,147
 /instance/org.eclipse.cdt.ui/c_string=199,141,155
 /instance/org.eclipse.cdt.ui/c_type=165,123,97
+/instance/org.eclipse.cdt.ui/c_type_bold=false
 /instance/org.eclipse.cdt.ui/content_assist_disabled_computers=org.eclipse.cdt.ui.textProposalCategory\u0000org.eclipse.cdt.ui.parserProposalCategory\u0000
 /instance/org.eclipse.cdt.ui/content_assist_parameters_background=31,34,35
 /instance/org.eclipse.cdt.ui/content_assist_parameters_foreground=224,226,228
@@ -961,12 +963,15 @@
 /instance/org.eclipse.cdt.ui/semanticHighlighting.enum.enabled=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.enumerator.color=224,226,228
 /instance/org.eclipse.cdt.ui/semanticHighlighting.enumerator.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.externalSDK.bold=false
 /instance/org.eclipse.cdt.ui/semanticHighlighting.externalSDK.color=224,226,228
 /instance/org.eclipse.cdt.ui/semanticHighlighting.externalSDK.enabled=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.field.color=103,140,177
 /instance/org.eclipse.cdt.ui/semanticHighlighting.field.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.function.bold=false
 /instance/org.eclipse.cdt.ui/semanticHighlighting.function.color=103,140,177
 /instance/org.eclipse.cdt.ui/semanticHighlighting.function.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.functionDeclaration.bold=false
 /instance/org.eclipse.cdt.ui/semanticHighlighting.functionDeclaration.color=149,190,216
 /instance/org.eclipse.cdt.ui/semanticHighlighting.functionDeclaration.enabled=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.localVariable.color=224,226,228
@@ -977,6 +982,7 @@
 /instance/org.eclipse.cdt.ui/semanticHighlighting.macroDefinition.enabled=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.method.color=103,140,177
 /instance/org.eclipse.cdt.ui/semanticHighlighting.method.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.methodDeclaration.bold=false
 /instance/org.eclipse.cdt.ui/semanticHighlighting.methodDeclaration.color=149,190,216
 /instance/org.eclipse.cdt.ui/semanticHighlighting.methodDeclaration.enabled=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.namespace.color=103,140,177
@@ -987,6 +993,7 @@
 /instance/org.eclipse.cdt.ui/semanticHighlighting.staticField.enabled=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.staticMethod.color=224,226,228
 /instance/org.eclipse.cdt.ui/semanticHighlighting.staticMethod.enabled=true
+/instance/org.eclipse.cdt.ui/semanticHighlighting.templateParameter.bold=false
 /instance/org.eclipse.cdt.ui/semanticHighlighting.typeParameter.color=224,226,228
 /instance/org.eclipse.cdt.ui/semanticHighlighting.typeParameter.enabled=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.typedef.color=103,140,177
@@ -1307,7 +1314,6 @@
 /instance/org.eclipse.rse.core/org.eclipse.rse.systemtype.local.systemType.defaultUserId=yasuo
 /instance/org.eclipse.rse.core/useridperkey=utsubuntu.\u30ED\u30FC\u30AB\u30EB\=yasuo;
 /instance/org.eclipse.rse.ui/org.eclipse.rse.preferences.order.connections=utsubuntu.\u30ED\u30FC\u30AB\u30EB
-/instance/org.eclipse.search/org.eclipse.search.defaultPerspective=org.eclipse.search.defaultPerspective.none
 /instance/org.eclipse.team.cvs.ui/pref_console_command_color=125,140,147
 /instance/org.eclipse.team.cvs.ui/pref_console_error_color=103,140,177
 /instance/org.eclipse.team.cvs.ui/pref_console_message_color=224,226,228
@@ -1406,11 +1412,11 @@
 /instance/org.eclipse.ui.workbench/RESOLVED_COLOR=108,210,17
 /instance/org.eclipse.ui.workbench/RUN_IN_BACKGROUND=true
 /instance/org.eclipse.ui.workbench/editors=<?xml version\="1.0" encoding\="UTF-8"?>\n<editors>\n<descriptor class\="org.eclipse.cdt.autotools.ui.editors.AutoconfEditor" id\="org.eclipse.cdt.autotools.ui.editor.autoconf" image\="icons/autoconf.gif" internal\="true" label\="Autoconf \u30A8\u30C7\u30A3\u30BF\u30FC" openMode\="1" open_in_place\="false" plugin\="org.eclipse.cdt.autotools.ui"/>\n<descriptor id\="org.eclipse.linuxtools.gcov.editor" image\="icons/toggle.gif" internal\="false" label\="Gcov \u30A8\u30C7\u30A3\u30BF\u30FC" launcher\="org.eclipse.linuxtools.internal.gcov.action.OpenGCAction" openMode\="4" open_in_place\="false" plugin\="org.eclipse.linuxtools.gcov.core"/>\n<descriptor class\="org.eclipse.cdt.internal.autotools.ui.editors.automake.AutomakeEditor" id\="org.eclipse.cdt.autotools.ui.editors.AutomakeEditor" image\="icons/automake.gif" internal\="true" label\="Automake \u30A8\u30C7\u30A3\u30BF\u30FC" openMode\="1" open_in_place\="false" plugin\="org.eclipse.cdt.autotools.ui"/>\n<descriptor class\="org.eclipse.ui.internal.browser.WebBrowserEditor" id\="org.eclipse.ui.browser.editor" image\="$nl$/icons/obj16/internal_browser.gif" internal\="true" label\="\u5185\u90E8 Web \u30D6\u30E9\u30A6\u30B6\u30FC" openMode\="1" open_in_place\="false" plugin\="org.eclipse.ui.browser"/>\n<descriptor id\="org.eclipse.ui.browser.editorSupport" image\="$nl$/icons/obj16/internal_browser.gif" internal\="false" label\="Web \u30D6\u30E9\u30A6\u30B6\u30FC" launcher\="org.eclipse.ui.internal.browser.BrowserLauncher" openMode\="4" open_in_place\="false" plugin\="org.eclipse.ui.browser"/>\n<descriptor id\="org.eclipse.linuxtools.gprof.editor.single" image\="icons/toggle.gif" internal\="false" label\="Gprof \u30A8\u30C7\u30A3\u30BF\u30FC" launcher\="org.eclipse.linuxtools.internal.gprof.action.OpenGmonAction" openMode\="4" open_in_place\="false" plugin\="org.eclipse.linuxtools.gprof"/>\n<descriptor class\="org.eclipse.linuxtools.internal.systemtap.ui.ide.editors.stp.STPEditor" id\="org.eclipse.linuxtools.internal.systemtap.ui.ide.editors.stp.STPEditor" image\="icons/views/page_obj.gif" internal\="true" label\="SystemTap STP Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.linuxtools.systemtap.ui.ide"/>\n<descriptor class\="org.eclipse.linuxtools.internal.valgrind.ui.editor.SuppressionsEditor" id\="org.eclipse.linuxtools.valgrind.editor.suppEditor" image\="icons/valgrind-supp-icon.png" internal\="true" label\="Suppressions Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.linuxtools.valgrind.ui.editor"/>\n<descriptor class\="org.eclipse.oomph.workingsets.presentation.WorkingSetsEditor" id\="org.eclipse.oomph.workingsets.presentation.WorkingSetsEditorID" image\="icons/full/obj16/WorkingSetsModelFile.gif" internal\="true" label\="Working Sets Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.oomph.workingsets.editor"/>\n<descriptor class\="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor" id\="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor" image\="icons/rpm.gif" internal\="true" label\="Specfile \u30A8\u30C7\u30A3\u30BF\u30FC" openMode\="1" open_in_place\="false" plugin\="org.eclipse.linuxtools.rpm.ui.editor"/>\n<descriptor class\="org.eclipse.linuxtools.internal.rpm.ui.editor.forms.SpecfileFormEditor" id\="org.eclipse.linuxtools.rpm.ui.editor.forms.SpecfileFormEditor" image\="icons/rpm.gif" internal\="true" label\="Specfile Form Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.linuxtools.rpm.ui.editor"/>\n<descriptor class\="org.eclipse.linuxtools.internal.changelog.core.editors.ChangeLogEditor" id\="org.eclipse.linuxtools.changelog.core.editor6" image\="icons/file_obj.gif" internal\="true" label\="\u5909\u66F4\u30ED\u30B0\u30FB\u30A8\u30C7\u30A3\u30BF\u30FC" openMode\="1" open_in_place\="false" plugin\="org.eclipse.linuxtools.changelog.core"/>\n<descriptor class\="org.eclipse.oomph.setup.presentation.SetupEditor" id\="org.eclipse.oomph.setup.presentation.SetupEditorID" image\="icons/full/obj16/SetupModelFile.gif" internal\="true" label\="Setup Editor" openMode\="1" open_in_place\="false" plugin\="org.eclipse.oomph.setup.editor"/>\n</editors>
-/instance/org.eclipse.ui.workbench/org.eclipse.cdt.internal.ui.compare.AsmMergeViewer=1|Myrica M|10.0|0|GTK|1|;
-/instance/org.eclipse.ui.workbench/org.eclipse.cdt.internal.ui.compare.CMergeViewer=1|Myrica M|10.0|0|GTK|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.cdt.internal.ui.compare.AsmMergeViewer=1|Myrica M|11.0|0|GTK|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.cdt.internal.ui.compare.CMergeViewer=1|Myrica M|11.0|0|GTK|1|;
 /instance/org.eclipse.ui.workbench/org.eclipse.cdt.ui.ColoredLabels.match_highlight=30,30,128
 /instance/org.eclipse.ui.workbench/org.eclipse.cdt.ui.ColoredLabels.writeaccess_highlight=0,100,100
-/instance/org.eclipse.ui.workbench/org.eclipse.cdt.ui.editors.textfont=1|Myrica M|10.0|0|GTK|1|;
+/instance/org.eclipse.ui.workbench/org.eclipse.cdt.ui.editors.textfont=1|Myrica M|11.0|0|GTK|1|;
 /instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands/>
 /instance/org.eclipse.ui.workbench/overriddenByCSS=,ACTIVE_HYPERLINK_COLOR,CONFLICTING_COLOR,CONTENT_ASSIST_BACKGROUND_COLOR,CONTENT_ASSIST_FOREGROUND_COLOR,ERROR_COLOR,HYPERLINK_COLOR,INCOMING_COLOR,OUTGOING_COLOR,RESOLVED_COLOR,
 /instance/org.eclipse.ui.workbench/resourcetypes=<?xml version\="1.0" encoding\="UTF-8"?>\n<editors version\="3.1">\n<info extension\="m4" name\="ltoptions">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="m4" name\="ltdl">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="m4" name\="ltgcc">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="gcno" name\="*">\n<editor id\="org.eclipse.linuxtools.gcov.editor"/>\n<defaultEditor id\="org.eclipse.linuxtools.gcov.editor"/>\n</info>\n<info extension\="in" name\="Makefile">\n<editor id\="org.eclipse.cdt.autotools.ui.editors.AutomakeEditor"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editors.AutomakeEditor"/>\n</info>\n<info extension\="html" name\="*">\n<editor id\="org.eclipse.ui.browser.editor"/>\n<editor id\="org.eclipse.ui.browser.editorSupport"/>\n<defaultEditor id\="org.eclipse.ui.browser.editor"/>\n</info>\n<info extension\="out" name\="gmon">\n<editor id\="org.eclipse.linuxtools.gprof.editor.single"/>\n<defaultEditor id\="org.eclipse.linuxtools.gprof.editor.single"/>\n</info>\n<info extension\="m4" name\="ltsugar">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="sum" name\="gmon">\n<editor id\="org.eclipse.linuxtools.gprof.editor.single"/>\n<defaultEditor id\="org.eclipse.linuxtools.gprof.editor.single"/>\n</info>\n<info extension\="stp" name\="*">\n<editor id\="org.eclipse.linuxtools.internal.systemtap.ui.ide.editors.stp.STPEditor"/>\n<defaultEditor id\="org.eclipse.linuxtools.internal.systemtap.ui.ide.editors.stp.STPEditor"/>\n</info>\n<info extension\="supp" name\="*">\n<editor id\="org.eclipse.linuxtools.valgrind.editor.suppEditor"/>\n</info>\n<info extension\="shtml" name\="*">\n<editor id\="org.eclipse.ui.browser.editor"/>\n<editor id\="org.eclipse.ui.browser.editorSupport"/>\n<defaultEditor id\="org.eclipse.ui.browser.editor"/>\n</info>\n<info extension\="workingsets" name\="*">\n<editor id\="org.eclipse.oomph.workingsets.presentation.WorkingSetsEditorID"/>\n</info>\n<info extension\="m4" name\="libtool">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="spec" name\="*">\n<editor id\="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>\n<editor id\="org.eclipse.linuxtools.rpm.ui.editor.forms.SpecfileFormEditor"/>\n</info>\n<info extension\="m4" name\="acinclude">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="spec2" name\="*">\n<editor id\="org.eclipse.linuxtools.rpm.ui.editor.SpecfileEditor"/>\n</info>\n<info extension\="m4" name\="ltversion">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="am" name\="Makefile">\n<editor id\="org.eclipse.cdt.autotools.ui.editors.AutomakeEditor"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editors.AutomakeEditor"/>\n</info>\n<info extension\="ac" name\="configure">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="am" name\="*">\n<editor id\="org.eclipse.cdt.autotools.ui.editors.AutomakeEditor"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editors.AutomakeEditor"/>\n</info>\n<info extension\="in" name\="configure">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="" name\="ChangeLog">\n<editor id\="org.eclipse.linuxtools.changelog.core.editor6"/>\n<defaultEditor id\="org.eclipse.linuxtools.changelog.core.editor6"/>\n</info>\n<info extension\="setup" name\="*">\n<editor id\="org.eclipse.oomph.setup.presentation.SetupEditorID"/>\n</info>\n<info extension\="m4" name\="lt~obsolete">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="gcda" name\="*">\n<editor id\="org.eclipse.linuxtools.gcov.editor"/>\n<defaultEditor id\="org.eclipse.linuxtools.gcov.editor"/>\n</info>\n<info extension\="m4" name\="aclocal">\n<editor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n<defaultEditor id\="org.eclipse.cdt.autotools.ui.editor.autoconf"/>\n</info>\n<info extension\="htm" name\="*">\n<editor id\="org.eclipse.ui.browser.editor"/>\n<editor id\="org.eclipse.ui.browser.editorSupport"/>\n<defaultEditor id\="org.eclipse.ui.browser.editor"/>\n</info>\n</editors>
@@ -1800,7 +1806,6 @@
 @org.eclipse.remote.core=2.1.0.201609011857
 @org.eclipse.rse.core=3.3.100.201603151753
 @org.eclipse.rse.ui=3.3.200.201601281257
-@org.eclipse.search=3.11.0.v20160519-1501
 @org.eclipse.team.svn.core=4.0.2.I20160902-1700
 @org.eclipse.team.svn.ui=4.0.2.I20160902-1700
 @org.eclipse.team.ui=3.8.0.v20160518-1906
