@@ -1,3 +1,5 @@
 file_export_version=3.0
 /instance/org.eclipse.ui.workbench/org.eclipse.cdt.ui.ColoredLabels.match_highlight=30,30,128
 /instance/org.eclipse.ui.workbench/org.eclipse.cdt.ui.ColoredLabels.writeaccess_highlight=0,100,100
+/instance/org.eclipse.ui.workbench/org.eclipse.search.ui.match.highlight=30,30,128
+
